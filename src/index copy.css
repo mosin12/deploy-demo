@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+  height: 100%;
+  height: 100%;
+  font-size: 0.875rem;
+  background: #f1f2f3;
+  overflow-x: hidden;
+  overflow-y: auto;
+  letter-spacing: 0.0312rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3b3f5c; }
+
+:focus {
+  outline: none; }
+
+::-moz-selection {
+  color: #1b55e2;
+  background: transparent; }
+
+::selection {
+  color: #1b55e2;
+  background: transparent; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  color: #515365; }
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #f1f2f3; 
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header {
+  background: #fff;
+  box-shadow: 0 0 6px #c8c8c8;
+  padding: 0;
+  position: relative;
+  z-index: 999;
+}
+.header-top {
+  background-color: #efefef;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  position: relative;
+  z-index: 9999;
+}
+.header-top .left-list li:first-child {
+  border-left: none;
+}
+.header-top ul li:first-child {
+  margin-left: 0;
+}
+.header-top .left-list li {
+  font-weight: 600;
+  padding: 0 8px;
+  position: relative;
+}
+
+.header-top ul li {
+  border-right: 1px solid rgba(0,0,0,.65);
+  color: rgba(0,0,0,.65);
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 5px;
+}
+
+.header-top .left-list li a {
+  color: #000;
+}
+.header-top ul li a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar {
+  padding-bottom: 0.1rem!important;
+  padding-top: 0.1rem!important;
+}
+.navbar, .navbar.expand-header {
+  padding: 0;
+}
+
+
+nav .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar, .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar-brand {
+  padding: 5px 0;
+  margin-right: 0;
+  width: 5.5rem;
+}
+
+.navbar a {
+  color: #393939;
+  text-decoration: none;
+}
+.navbar-brand img {
+  margin-right: 15px;
+  height: 52px;
+}.navbar-toggler {
+  box-shadow: none;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.navbar {
+  padding-bottom: 0.1rem!important;
+  padding-top: 0.1rem!important;
+}
+.header-top .left-list li a {
+  color: #000;
+}
+.align-items-center {
+  align-items: center!important;
+}
+.d-flex {
+  display: flex!important;
+}
+.list-inline, .list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+.justify-content-between {
+  justify-content: space-between!important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.layout-spacing {
+  padding-bottom: 40px;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+.font-weight-bold {
+  font-weight: 700!important;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+
+

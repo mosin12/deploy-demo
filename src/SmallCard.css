@@ -1,0 +1,106 @@
+
+.small-card {
+  position: relative;
+  background: #FE5233;
+  list-style: none;
+  height: 68px;
+  border-radius: 4px;
+  padding-left: 56px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 22px 0 0 0;
+}
+
+.small-card .icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55px;
+  text-align: center;
+}
+.small-card .icon img {
+  height: 35px;
+}
+.small-card h5 {
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  margin: 0;
+  font-weight: 600;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.small-card.bg-purple {
+  background: #78356C;
+}
+
+.small-card.bg-dark-purple {
+  background: #443C78;
+}
+.small-card h6 {
+    color: #fff;
+    font-size: 13px;
+    width: 100%;
+    margin: 0;
+    font-weight: 500;
+}
+.ps-1 {
+  padding-left: 0.25rem!important;
+}
+.pe-1 {
+  padding-right: 0.25rem!important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+#viewDiv{
+  position: absolute;
+}
+.sch_table{
+  position: absolute;
+    z-index: 9999;
+    right: 7px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.closeButton {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+}
+
+.basemap-button {
+  width: 65px;
+    height: 65px;
+    margin-right: 4px;
+    background-size: cover;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 4px;
+
+}
+.basemap-selector {
+  border-radius: 5px;
+}
